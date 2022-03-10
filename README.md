@@ -1,6 +1,8 @@
 # **greyscale-image**
 Learning application to greyscale a `.jpg` image.
 
+![Cover Image](cover.gif)
+
 
 ## **Running**
 <details>
