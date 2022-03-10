@@ -1,4 +1,8 @@
 # **greyscale-image**
+![Rust Build Status](https://img.shields.io/github/workflow/status/c1m50c/greyscale-image/Rust?label=Rust%20Build&style=for-the-badge)
+![GitHub License](https://img.shields.io/github/license/c1m50c/greyscale-image?color=blue&style=for-the-badge)
+![Lines of Code](https://img.shields.io/tokei/lines/github/c1m50c/greyscale-image?style=for-the-badge)
+
 Learning application to greyscale an image.
 
 ![Cover Image](cover.gif)
