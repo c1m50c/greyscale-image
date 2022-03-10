@@ -6,8 +6,6 @@ use std::vec::Vec;
 use std::env;
 
 
-
-
 fn main() {
     let args: Vec<String> = env::args().collect();
     assert_eq!(args.len(), 2, "Too many arguments passed into the application.");
