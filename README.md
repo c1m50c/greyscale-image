@@ -1,15 +1,36 @@
 # **greyscale-image**
-Simple application to greyscale a `.jpg` image.
+Learning application to greyscale a `.jpg` image.
 
-## **Installing Requirements**
+
+## **Running**
+<details>
+<summary>Python 🐍</summary>
+
+### **Installing Requirements**
 ```bash
 $ cd greyscale-image
 $ pip install -r ./requirements.txt
 ```
 
-## **Running**
+### **Running**
 ```bash
 $ cd greyscale-image
-$ python3 src/main.py [INPUT_FILE_PATH]
+$ python3 src/python/main.py [INPUT_FILE_PATH]
 # Output will be `output.jpg`
 ```
+
+</details>
+
+
+<details>
+<summary>Rust 🦀</summary>
+
+### **Building & Running**
+```bash
+$ cd greyscale-image
+$ cargo build --release
+$ ./target/release/greyscale-image [INPUT_FILE_PATH]
+# Output will be `output.jpg`
+```
+
+</details>
